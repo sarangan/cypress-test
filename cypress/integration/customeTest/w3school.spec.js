@@ -29,7 +29,7 @@ cy.get('#header a').should('have.class', 'active').and('have.attr', 'href', '/us
 cy.get('.mobile-nav').should('be.visible').and('contain', 'Home')
 cy.get('.article').find('footer')
 cy.get('#parent').find('li')
-
+cy.get('tr').eq(2).should('contain', 'Canada')  //true
 
 cy
   .get('.my-selector')
