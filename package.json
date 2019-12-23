@@ -1,0 +1,23 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/cypress open",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarangan/cypress-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarangan/cypress-test/issues"
+  },
+  "homepage": "https://github.com/sarangan/cypress-test#readme",
+  "devDependencies": {
+    "cypress": "^3.8.0"
+  }
+}
